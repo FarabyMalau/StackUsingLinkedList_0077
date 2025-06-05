@@ -53,5 +53,14 @@ public:
         delete temp;
     }
 
-    
+    //peek/top operation: Retrieve the value of the topmost
+    void peek()
+    {
+        if (isEmpty())
+        {
+            cout << "List is empty>" << endl;
+        }
+        else
+        {}
+    }
 };
