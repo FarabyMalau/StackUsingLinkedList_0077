@@ -46,6 +46,12 @@ public:
             cout << "Stack is empty." << endl;
             return;
         }
+    
+
+        cout << "Popped value: " << temp->data << endl;
+        top = temp->next; //update the top pointer to the
+        delete temp;
     }
 
+    
 };
