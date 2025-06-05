@@ -77,3 +77,8 @@ public:
         return top == NULL; // Return true if the top pointer
     }
 };
+
+int main()
+{
+    Stack stack;
+}
