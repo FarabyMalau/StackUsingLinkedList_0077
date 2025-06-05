@@ -29,7 +29,12 @@ public:
     // Push operation: Insert the element onto the top of the
     int push(int value)
     {
-
+        Node *newNode = new Node(); //1. Allocate memory for
+        newNode->data = value;      //2. Assign value
+        newNode->next = top;        //3. Set the next pointer
+        top = newNode;              //4. Update the top pointer
+        cout << "Push value: " << value << endl;
+        return value;
     }
 
 
