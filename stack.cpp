@@ -100,7 +100,11 @@ int main()
             cout << "Enter the value to push: ";
             cin >> value;
             stack.push(value); // push the entered value onto the stack
-            break;            
+            break;
+            case 2:
+            stack.pop(); // pop the topmost element in the stack
+            break;
+          
         }
     }
 }
